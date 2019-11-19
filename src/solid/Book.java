@@ -37,10 +37,8 @@ public class Book {
 	void setAuthor(String author) {
 		this.author = author;
 	}
-	void searchBook() {
-		/*
-		 * Search a book for author or title or category
-		 */
-	}
+        
+       
+	
 
 }

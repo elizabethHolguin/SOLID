@@ -42,5 +42,12 @@ public class StoreBook implements Pago {
     public void pay_cash(String method, Book book) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    //Este método estaba antes en Book, por lo tanto se estaba violando el principio SRP número porque 
+    //la responsabilidad no era la adecuada para la clase, por eso se la ha colocado aquí.
+    void searchBook() {
+		/*
+		 * Search a book for author or title or category
+		 */
+	}
 
 }
